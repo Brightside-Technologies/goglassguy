@@ -144,4 +144,9 @@ img.avatar {
             opacity: 1;
         }
     }
+     @media (min-width: 576px) {
+        .mask {
+            opacity: 1;
+        }
+    }
 }

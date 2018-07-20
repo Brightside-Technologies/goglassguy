@@ -1,0 +1,60 @@
+body {
+    overflow-x: hidden !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    // font-family: "Roboto", sans-serif !important;
+}
+
+main {
+    flex: 1 0 auto;
+    min-height: 100%;
+}
+
+.index-container {
+    section {
+        min-height: 100vh;
+    }
+}
+
+img.logo {
+    width: 150px !important;
+    height: auto;
+}
+
+ul.social-buttons li a {
+    font-size: 18px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #222222;
+    &.btn-facebook {
+        background-color: #3b5998;
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: darken(#3b5998, 10%);
+        }
+    }
+
+    &.btn-twitter {
+        background-color: #55acee;
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: darken(#55acee, 10%);
+        }
+    }
+
+    &.btn-linkedin {
+        background-color: #0077b5;
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: darken(#0077b5, 10%);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Brightside Tech",
+    "author": "Brightside Tech",
+    "favicon": "assets/images/favicon.ico",
+    "type": "website",
+    "description": "Lorem Ipsum",
+    "image": "/assets/images/site-preview.png",
+    "url": "https://brightsidetechio.netlify.com",
+    "email": "theglassguy@outlook.com",
+    "phone": "760 989 0482",
+    "googleAnalyticsId": "",
+    "keywords": ["The Glass Guy", "Windows", "Glass", "Mirrors", "Doors", "Screens"]
+}

@@ -1,0 +1,140 @@
+img.emoji {
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.mask-dark {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.mask-pattern-1 {
+    background-image: url("assets/images/mask-pattern-1.png");
+}
+
+.mask-pattern-2 {
+    background-image: url("assets/images/mask-pattern-2.png");
+}
+
+.mask-pattern-3 {
+    background-image: url("assets/images/mask-pattern-3.png");
+}
+
+.mask-pattern-4 {
+    background-image: url("assets/images/mask-pattern-4.png");
+}
+
+.mask-pattern-5 {
+    background-image: url("assets/images/mask-pattern-5.png");
+}
+
+.mask-pattern-6 {
+    background-image: url("assets/images/mask-pattern-6.png");
+}
+
+.mask-pattern-7 {
+    background-image: url("assets/images/mask-pattern-7.png");
+}
+
+.mask-accent-strong {
+    background: $accent-color-alpha9;
+}
+
+.mask-accent {
+    background: $accent-color-alpha7;
+}
+
+.mask-accent-light {
+    background: $accent-color-alpha5;
+}
+
+.fill-primary {
+    fill: $primary-color !important;
+}
+
+.fill-white {
+    fill: #fff !important;
+}
+
+.bg-gradient-transparent {
+    background: linear-gradient(127.07deg, $primary-color-alpha9, $primary-color-2-alpha9) 0% 0% / cover;
+}
+
+.bg-gradient {
+    background: linear-gradient(-127.07deg, $primary-color, $primary-color-2) 0% 0% / cover;
+}
+
+.card.service-card:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(127.07deg, $primary-color, $primary-color-2) 0% 0% / cover;
+}
+
+.bg-pale {
+    background: #f6f9fc;
+}
+
+.bg-accent {
+    background: $accent-color !important;
+}
+
+.hero-text {
+    font-weight: 900;
+}
+
+.min-h-100 {
+    min-height: 100vh;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+
+.animated.animation-ended {
+    opacity: 1;
+}
+
+.hero-lead img.emoji {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.btn-primary {
+    background: $accent-color !important;
+    color: #fff;
+}
+
+img.avatar {
+    height: 100px;
+    width: 100px;
+}
+
+.zoom {
+    img {
+        transition: all 0.2s linear;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.overlay {
+    .mask {
+        transition: all 0.4s ease-in-out;
+        opacity: 0;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

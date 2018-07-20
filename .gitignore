@@ -1,0 +1,7 @@
+dist/
+jekyll-dist
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+node_modules
+Thumbs.db

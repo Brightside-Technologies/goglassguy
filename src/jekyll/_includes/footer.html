@@ -1,0 +1,22 @@
+<footer id="footer" class="footer sct-color-3">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                <div class="col-md-12 d-flex align-items-center justify-content-between">
+                    <img style="width: 10rem" src="{{'assets/images/licensed-bonded-insured.png' | absoulte_url}}">
+                    <a href="{{site.googleReviewUrl}}" target="_blank">
+                        <img style="width: 7rem" src="{{'assets/images/review-us-on-google.png' | absoulte_url}}">
+                    </a>   
+                </div> 
+                <div class="copyright mt-4">
+                        <p>
+                            &copy; Copyright 
+                                {% assign currentYear = site.time | date: '%Y' %} 
+                                {{site.time | date: '%Y'}}
+                            - All rights reserved
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>

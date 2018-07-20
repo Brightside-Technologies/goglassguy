@@ -1,0 +1,22 @@
+[
+    {
+        "service": "Doors",
+        "image": "assets/images/doors.jpg"
+    },
+    {
+        "service": "Windows",
+        "image": "assets/images/windows.jpg"
+    },
+    {
+        "service": "Screens",
+        "image": "assets/images/screens.jpg"
+    },
+    {
+        "service": "Mirrors",
+        "image": "assets/images/mirrors.jpg"
+    },
+    {
+        "service": "Showers",
+        "image": "assets/images/showers.jpg"
+    }
+]

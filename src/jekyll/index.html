@@ -7,8 +7,8 @@ permalink: index.html
     <span class="mask mask-dark mask-pattern-2"></span>
     <span class="spacer py-5 d-none d-sm-block"></span>
     <div class="position-relative container d-flex flex-column justify-content-end align-items-center pt-3">
-            <img class="w-75" src="{{'assets/images/glass_white.png' | absolute_url}}">
-            <h1 class="text-white text-center animated h1 hero-text pt-3 opacity-0" data-animation-in="fadeInLeft" data-animation-delay="100">
+            <img class="w-100" src="{{'assets/images/glass_white.png' | absolute_url}}">
+            <h1 class="text-white text-center animated h2 hero-text pt-3 opacity-0" data-animation-in="fadeInLeft" data-animation-delay="100">
                 No Job Too Big
             </h1>
             <p class="text-white text-center line-height-1_8 animated hero-lead opacity-0 text-uppercase font-weight-bold mt-3" data-animation-in="fadeInLeft" data-animation-delay="100">
@@ -55,17 +55,17 @@ permalink: index.html
         <div class="text-center animate-on-scroll fadeInDown" data-wow-delay="0.3s">
             <p class="lead">Whether commercial or residential, I repair or replace it all.</p>
         </div>
-        <div class="row d-flex flex-wrap">
-            <div class="col-sm-3">Windows</div>
-            <div class="col-sm-3">Doors</div>
-            <div class="col-sm-3">Screens</div>
-            {% comment %} <ul class="list-unstyled">
-                <li>:heavy_check_mark: Windows</li>
-                <li>:heavy_check_mark: Doors</li>
-                <li>:heavy_check_mark: Screens</li>
-                <li>:heavy_check_mark: Mirrors</li>
-                <li>:heavy_check_mark: Showers</li>
-            </ul> {% endcomment %}
+        <div class="row d-flex flex-wrap px-2 py-5">
+            {% for service in site.data.services %}
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 py-2">
+                    <div class="position-relative overflow-hidden zoom overlay h-100 d-flex flex-column shadow rounded">
+                        <span class="mask mask-dark d-flex align-items-center justify-content-center">
+                            <h4 class="text-white font-weight-bold">{{service.service}}</h6>
+                        </span>
+                        <img src="{{service.image}}" class="d-block position-relative img-fluid flex-fill">
+                    </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </section>

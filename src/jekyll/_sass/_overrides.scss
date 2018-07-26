@@ -150,3 +150,11 @@ img.avatar {
         }
     }
 }
+
+
+.btn-grad {  
+    border-image: linear-gradient(to right, #fe8c00 0%, #f83600 51%, #fe8c00 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    // background-color: rgba(0,0,0,.75);
+}

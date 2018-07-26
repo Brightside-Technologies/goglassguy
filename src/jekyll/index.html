@@ -5,20 +5,28 @@ permalink: index.html
 ---
 <section class="d-flex flex-column justify-content-between position-relative" style="background-image: url({{'assets/images/cover.jpg' | absolute_url}})">
     <span class="mask mask-dark mask-pattern-2"></span>
-    <span class="spacer py-5 d-none d-sm-block"></span>
+    <span class="spacer py-4 d-none d-sm-block"></span>
     <div class="position-relative container d-flex flex-column justify-content-end align-items-center pt-3">
             <img class="w-100" src="{{'assets/images/glass_white.png' | absolute_url}}">
             <h1 class="text-white text-center animated h2 hero-text pt-3 opacity-0" data-animation-in="fadeInLeft" data-animation-delay="100">
                 No Job Too Big
             </h1>
-            <p class="text-white text-center line-height-1_8 animated hero-lead opacity-0 text-uppercase font-weight-bold mt-3" data-animation-in="fadeInLeft" data-animation-delay="100">
+            <p class="text-white text-center line-height-1_8 animated hero-lead opacity-0 text-uppercase font-weight-bold mt-0 mb-5" data-animation-in="fadeInLeft" data-animation-delay="100">
                 Veteran Owned and Operated :us:
             </p>
-
-            {% comment %} <a href="#" class="btn btn-styled btn-lg btn-primary btn-circle mt-3 text-uppercase animated opacity-0" data-animation-in="fadeInRight"
-                data-animation-delay="1000" data-scroll-to="#sct_what_we_do">
-                Check Out How
-            </a> {% endcomment %}
+            <div class="d-flex flex-column pt-2 animated opacity-0" data-animation-in="fadeInRight" data-animation-delay="1000">
+                <h5 class="m-0 text-center text-white text-uppercase">Free Estimate!</h5>
+                <a href="tel:{{site.data.metadata.phone}}" class="py-2 px-3 btn btn-primary btn-lg btn-circle text-white mt-2 text-uppercase">
+                    CALL NOW
+                    <i class="fas fa-phone"></i>
+                    <small class="d-block">{{site.data.metadata.phone}}</span>
+                </a>
+                <a href="tel:{{site.data.metadata.phone}}" class="py-2 px-3 btn btn-primary btn-lg btn-circle text-white mt-2 text-uppercase">
+                    Email
+                    <i class="fas fa-envelope"></i>
+                    <small class="d-block">{{site.data.metadata.email}}</span>
+                </a>
+            </div>   
     </div>
     <div class="position-relative pt-5 d-flex flex-column justify-content-end">
         <svg id="arrow-down-separator" preserveAspectRatio="xMidYMax meet" viewBox="0 0 1600 200" style="display: block;" data-height="200">
@@ -26,34 +34,16 @@ permalink: index.html
             </polygon> 
             <polygon class="gambit_sep_decor2" style="opacity: 1;fill: #404554;" points="-4,12 -4,24 800,198 1604,24 1604,11.833 800,198 "></polygon>
         </svg>
-        {% comment %} <svg class="fill-white" fill="" viewBox="0 0 1000 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 0 199.889 C 0 199.889 68.44 210.183 100.221 199.889 C 139.453 187.181 159.358 130.919 200.443 127.353 C 256.282 122.507 296.131 209.003 351.606 200.997 C 380.053 196.892 386.632 145.149 415.282 142.857 C 448.502 140.199 465.627 199.674 498.893 197.674 C 569.496 193.429 590.634 66.663 661.13 60.908 C 693.467 58.268 712.362 108.664 744.74 110.742 C 837.299 116.681 1000 0 1000 0 L 1000 299.558 L 0.55 299.558 L 0 199.889 Z"
-            />
-            <path d="M 0 224.847 C 0 224.847 35.071 229.348 49.834 224.494 C 75.195 216.156 112.674 210.262 141.196 210.845 C 168.064 211.395 174.03 172.3 200 176.723 C 256.788 186.394 272.039 226.641 330.454 230.818 C 373.387 233.887 415.483 167.224 443.521 200 C 480.494 243.221 528.216 250.778 600 150.131 C 645.951 85.705 769.607 186.072 848.837 184.29 C 942.877 182.174 1000 108.415 1000 108.415 L 1000 300 L 0.554 300 L 0 224.847 Z"
-            />
-            <path d="M 0 232.927 C 0 232.927 35.071 236.944 49.834 232.612 C 75.195 225.171 112.674 219.911 141.196 220.431 C 168.064 220.922 174.03 186.03 200 189.978 C 256.788 198.609 272.039 234.528 330.454 238.256 C 373.387 240.995 415.483 181.5 443.521 210.752 C 480.494 249.326 528.216 256.07 600 166.245 C 645.951 108.746 769.607 198.321 848.837 196.731 C 942.877 194.842 1000 129.014 1000 129.014 L 1000 300 L 0.554 300 L 0 232.927 Z"
-            />
-        </svg> {% endcomment %}
     </div>
 </section>
-{% comment %} <section class="py-5 bg-pale">
-    <div class="container">
-        <div class="text-center mb-2 animate-on-scroll fadeInDown">
-            <h2 class="text-center h1">
-                About The Glass Guy
-            </h2>
-        </div>
-            <p class="lead">A slave named Androcles once escaped from his master and fled to the forest. As he was wandering about there he came upon a Lion lying down moaning and groaning. At first he turned to flee, but finding that the Lion did not pursue him, he turned back and went up to him.<p>
-            <p class="lead">A Wolf had been feasting too greedily, and a bone had stuck crosswise in his throat. He could get it neither up nor down, and of course he could not eat a thing. Naturally that was an awful state of affairs for a greedy Wolf.</p>
-    </div>
-</section> {% endcomment %}
+
 <section class="py-5">
     <div class="container">
         <h2 class="text-center h1">
             Services
         </h2>
         <div class="text-center animate-on-scroll fadeInDown" data-wow-delay="0.3s">
-            <p class="lead">Whether commercial or residential, I repair or replace it all.</p>
+            <p class="lead">Whether commercial or residential, I am fully qualified to confidently repair or replace it all.</p>
         </div>
         <div class="row d-flex flex-wrap px-2 py-5">
             {% for service in site.data.services %}

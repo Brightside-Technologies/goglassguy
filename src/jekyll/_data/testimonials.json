@@ -1,1 +1,43 @@
 
+[
+    {
+        "name": "Willie Leyva",
+        "description": "Repaired and replaced windows very fast, courteous, and professional. Will call again for other window repairs.",
+        "stars": 5
+    },
+    {
+        "name": "Lucy Geissel",
+        "description": "I needed my window screens repaired.  I called on Friday after Thanksgiving.  I was able to drop off my screens that day and had them back by Monday.  The window guy was very professional and easy to work with.  I had 7 screens repaired and was very pleased with the workmanship and the cost of the repairs.",
+        "stars": 5
+    },
+    {
+        "name": "Hannah Dinh",
+        "description": "Excellent, reliable and fast. Prices was even cheaper than the one I used before. Thank you!",
+        "stars": 5
+    },
+    {
+        "name": "T. Hawley",
+        "description": "The Glass Guy' was prompt in delivering, worked tirelessly to complete the job within the time frame, and conveyed an exceptionally distinguished project.",
+        "stars": 5
+    },
+    {
+        "name": "Emjay B",
+        "description": "Very fast, came early morning the very next day. Quality work. Would definitely recommend him.",
+        "stars": 5
+    },
+    {
+        "name": "D D",
+        "description": "I called Paul Vargas, The Glass Guy, on Thursday, and he came out Friday. My problem was an 8' screen door with a bent frame due to my dog's jumping at it. Paul's initial assessment was that it would need to be replaced, but he decided to try to straighten it himself, thank goodness. \"Thor's Hammer,\" a great eye, and finesse, and he repaired the door beautifully. He could have just had me order a very expensive replacement, but he was honest and willing ~ his expertise brought the door back to usable within 20 minutes. What a fabulous professional. The cost was a very reasonable service fee. Thank you, Paul!",
+        "stars": 5
+    },
+    {
+        "name": "Suzanne Scott",
+        "description": "Paul Vargas, The Glass Guy, is the best.  I called him to replace a broken sliding glass door window and he arrived on time and quoted a price to replace the window.  I was very satisfied with the service he provided.  I even ordered sliding screen doors from him and had him replace the rollers on the glass door.  What a difference!  I highly recommend him.",
+        "stars": 5
+    },
+    {
+        "name": "Susan S. Markin",
+        "description": "I had to call Paul in during an emergency (break in) and I was so pleased with his sense of urgency and just amazing customer support. I’ve called him out on two other occasions and have always received the same professional service. After a 20-year+ military hiatus it’s comforting to know people like Paul still reside in California.",
+        "stars": 5
+    }
+]

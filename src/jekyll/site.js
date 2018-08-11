@@ -7,6 +7,14 @@ $(document).ready(function() {
     //     $(this).toggleClass("is-active");
     // });
 
+    $(".testimonials-carousel").flickity({
+        // cellAlign: "center",
+        wrapAround: true,
+        setGallerySize: false,
+        freeScroll: true,
+        autoPlay: 10000
+    });
+
     animatedElements.each(function() {
         var $this = $(this);
 

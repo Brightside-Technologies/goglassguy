@@ -2,4 +2,5 @@
 @import "node_modules/bootstrap/dist/css/bootstrap-reboot.css";
 @import "node_modules/bootstrap/dist/css/bootstrap.css";
 @import "node_modules/animate.css/animate.css";
-@import "node_modules/hamburgers/dist/hamburgers.css";
+@import "node_modules/flickity/dist/flickity.css";
+@import "node_modules/normalize.css/normalize.css";

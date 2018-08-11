@@ -36,14 +36,17 @@ permalink: index.html
         </svg>
     </div>
 </section>
-
-<section class="py-5">
+<section class="py-5 my-5">
     <div class="container">
-        <h2 class="text-center h1">
+        <h2 class="text-center">
             Services
         </h2>
         <div class="text-center animate-on-scroll fadeInDown" data-wow-delay="0.3s">
-            <p class="lead">Whether commercial or residential, I am fully qualified to confidently repair or replace it all.</p>
+            <p class="lead">Whether commercial or residential, I am fully qualified to confidently repair or replace doors, windows, screens, mirrors and showers.</p>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img style="width: 8rem" src="{{'assets/images/licensed-bonded-insured.png' | absoulte_url}}">
+            <p>Lic. No. {{site.data.metadata.licenseNumber}}</p>
         </div>
         <div class="row d-flex flex-wrap px-2 py-5">
             {% for service in site.data.services %}
@@ -56,24 +59,44 @@ permalink: index.html
                     </div>
                 </div>
             {% endfor %}
+        </div>      
+    </div>
+</section>
+<section class="py-5 mt-5 bg-pale">
+    <div class="container">
+        <h2 class="text-center">What customers are saying on Google</h2>
+        <div class="d-flex justify-content-center">
+            <a href="{{site.googleReviewUrl}}" target="_blank">
+                <img style="width: 5rem" src="{{'assets/images/review-us-on-google.png' | absoulte_url}}">
+            </a>
+        </div>
+        <div class="d-flex flex-column" style="height: 500px;">
+            <div class="py-5 testimonials-carousel h-100">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="testimonials-carousel--cell pb-3 px-1 h-100 col-md-6">
+                        <div class="h-100 shadow bg-white d-flex flex-column justify-content-between testimonials-body border p-3 rounded bg-light">
+                            <p class="mb-1">{{testimonial.description}}</p>
+                            <div class="d-flex align-items-center pt-1">
+                                <div class="testimonial-initials rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                                    <span>{{testimonial.initials}}</span>
+                                </div>
+                                <div>
+                                    <div class="rating">
+                                        {% for star in (0..4) %} 
+                                            {% if star < testimonial.stars %} 
+                                                <i class="gold-star fas fa-star"></i>
+                                            {% else %}
+                                                <i class="gold-star far fa-star"></i>
+                                            {% endif %} 
+                                        {% endfor %}
+                                    </div>
+                                    <div class="h5 m-0">{{testimonial.name}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>
-{% comment %} <section class="slice-xl sct-color-3">
-    <div class="shape-container" data-shape-style="opaque_waves_1" data-shape-position="top" style="height: 80px;">
-        <svg class="shape-item" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-            <path d="M 0 0 c 0 0 200 50 500 50 s 500 -50 500 -50 v 101 h -1000 v -100 z"></path>
-        </svg>
-    </div> {% endcomment %}
-
-    {% comment %} <div class="container">
-        <div class="cta-container cta-container-overlay">
-            <div class="cta-block cta-block-overlay bg-base-1 z-depth-5 text-center">
-                <h2 class="heading heading-inverse heading-2 strong-500">
-                    Let your imagination run wild!
-                </h2>
-                <a href="#" class="btn btn-styled btn-lg btn-white btn-outline btn-circle mt-5">Contact Us</a>
-            </div>
-        </div>
-    </div> {% endcomment %}
-{% comment %} </section> {% endcomment %}

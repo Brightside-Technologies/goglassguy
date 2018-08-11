@@ -1,19 +1,19 @@
 #url: https://goglassguy.netlify.com
 #url: https://goglassguy.com
+developer: Brightside Tech
+developerUrl: "#"
 googleReviewUrl: https://www.google.com/search?q=the+glass+guy&rlz=1C1CHBF_enUS753US753&oq=the+glass+guy&aqs=chrome..69i57j0l5.2439j1j7&sourceid=chrome&ie=UTF-8#lrd=0x80daf9fda647dca9:0xb01b20a227cd5c28,3,,,
-licenseNumber: 
-phoneNumber:
 markdown: kramdown
 destination: jekyll-dist
 source: src/jekyll
 plugins:
-  - jemoji
+    - jemoji
 include:
-  - _pages
+    - _pages
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - node_modules
-  - package-lock.json
-  - src/vendors
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - node_modules
+    - package-lock.json
+    - src/vendors

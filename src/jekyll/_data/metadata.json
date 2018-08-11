@@ -1,13 +1,12 @@
 {
     "title": "The Glass Guy",
-    "author": "Brightside Tech",
+    "author": "The Glass Guy",
     "favicon": "assets/images/favicon.ico",
     "type": "website",
-    "description": "Lorem Ipsum",
-    "image": "/assets/images/site-preview.png",
-    "url": "https://goglassguy.netlify.com",
+    "description": "Whether commercial or residential, I am fully qualified to confidently repair or replace doors, windows, screens, mirrors and showers.",
+    "image": "/assets/images/site-preview.jpg",
     "email": "theglassguy@outlook.com",
-    "phone": "760 989 0482",
+    "phone": "(760)-989-0482",
     "licenseNumber": "1019630",
     "googleAnalyticsId": "",
     "keywords": [
